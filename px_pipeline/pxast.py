@@ -35,6 +35,7 @@ TOK_RE = re.compile(r"""
   (?P<ws>[ \t\r\n]+)
 | (?P<lc>//[^\n]*)
 | (?P<bc>/\*.*?(\*/|\Z))
+| (?P<dnum>\d+[A-Za-z_][A-Za-z0-9_]*)
 | (?P<num>\d+\.\d*|\d+)
 | (?P<hex>\$[0-9A-Fa-f]+(?![A-Za-z0-9_]))
 | (?P<str>"[^"\n]*")
@@ -79,7 +80,7 @@ def tokenize(text):
             toks.append(("str", v[1:-1], line))
         elif kind == "flag":
             toks.append(("flag", v[1:], line))
-        elif kind == "id":
+        elif kind in ("id", "dnum"):   # dnum: identifier starting with a digit (30seconds, 1pointers, 1s)
             toks.append(("id", v, line))
         else:
             toks.append(("op", v, line))
@@ -160,7 +161,8 @@ class Parser:
             names = [self.ident()]
             while self.accept(","):
                 names.append(self.ident())
-            self.accept(";")
+            if not self.accept(";"):
+                self.accept(":")   # 'require a, b:' (typo for ';') in weapon_air_911
             return ("require", names)
         if tk[1] == "enum":
             self.next()
@@ -291,7 +293,7 @@ class Parser:
         st = []
         while not self.at("}"):
             if self.peek()[0] == "eof":
-                self.err("eof in block")
+                return ("block", st)   # missing final '}' at end of file (script_agility): closed implicitly
             s = self.stmt()
             if s is not None:
                 st.append(s)
@@ -391,6 +393,8 @@ class Parser:
             if self.is_decl_start():
                 return self.decl_stmt()
         e = self.expr()
+        while self.accept(")"):
+            pass   # stray ')' after a complete call (f(a));  seen in published scripts); ignored
         if not self.accept(";"):
             # tolerate missing ';' before '}' or newline-separated statements
             if not self.at("}"):

@@ -82,13 +82,29 @@ def _all_gvars():
     return _GV_ALL
 
 
+_ENGINE_FIELDS = None
+
+
+def _engine_fields():
+    """field names of the engine classes (FIELDS tables in pxrt_engine.lua)."""
+    global _ENGINE_FIELDS
+    if _ENGINE_FIELDS is None:
+        eng = open(os.path.join(DEV, 'pxrt_engine.lua'), encoding='utf-8').read()
+        _ENGINE_FIELDS = set()
+        for m in re.finditer(r'FIELDS\.\w+\s*=\s*\{(.*?)\n\}', eng, re.S):
+            _ENGINE_FIELDS |= set(re.findall(r'(\w+)\s*=\s*\{\s*0x', m.group(1)))
+    return _ENGINE_FIELDS
+
+
 def fix_xglobals(src, fp):
     """`self.name` where name is a global declared in ANOTHER package and never assigned as a field here: PX resolved
-    it to that global, the transpiler could not and emitted a member access."""
+    it to that global, the transpiler could not and emitted a member access. Engine fields are left alone
+    (scheme_painter reads CTurnGame::Timer while scheme_dodge declares a global Timer)."""
     gv = _all_gvars()
+    eng = _engine_fields()
     for n in sorted(set(re.findall(r'\bself\.(\w+)', src))):
         owners = gv.get(n)
-        if not owners or fp in owners:
+        if not owners or fp in owners or n in eng:
             continue
         if re.search(r'\.' + n + r'\s*=[^=]', src):
             continue

@@ -24,7 +24,7 @@ px_pipeline/px/
 px_pipeline/pxl/
 px_pipeline/pxwiki/
 px_pipeline/corpus.json
-px_pipeline/testout/
+px_pipeline/testout*/
 
 # Original sol2 headers used only by the ehtest "old" variant (copied from wkJellyWorm git HEAD)
 ehtest/old_inc/

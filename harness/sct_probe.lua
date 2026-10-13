@@ -6,7 +6,8 @@ return function(R, E, H, L)
     if m == "SetCurrentTeam" then n = n + 1 end
     return inv(o, cls, m, ...)
   end
-  for _, team in ipairs({ 1, 1, 2, 2, 1 }) do
+  -- starts at team 0: the hook remembers the team it saw in the frames before the probe, which would hide the first change
+  for _, team in ipairs({ 0, 1, 1, 2, 2, 1 }) do
     writeMemInt(H.TG + 0x12C, team)
     H.sendMessage("CTaskTurnGame", H.TG, nil, 2, 0, 0)
   end

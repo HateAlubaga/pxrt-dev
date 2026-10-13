@@ -21,6 +21,12 @@ _G.__pxrt_logsink = function(m) logs[#logs + 1] = m end
 local function L(fmt, ...) logs[#logs + 1] = "H: " .. string.format(fmt, ...) end
 
 H.build({ weapons = SCEN.weapons or {}, teams = 2, perTeam = 2 })
+-- TurnGame+0x164 TimerDisabled: the mock used to start mid-turn (timer running) before any worm had had a frame, so scripts
+-- that read a "current worm" global set from the worm's own M_FRAME while IsTimerActive() (was_counters) saw it unset.
+-- Modelled instead: the first turn starts inside the first turn-game frame (WA's handler, after the script overrides) and
+-- the worms get that frame afterwards; frames() starts the timer after that first turn-game frame.
+writeMemInt(H.TG + 0x164, 1)
+local turnStarted = false
 
 -- HARNESS_TRACE=1: hash every host call that changes the world, so two runtime versions can be compared package by package
 local traceH, traceN = 5381, 0
@@ -89,6 +95,7 @@ local function frames(n)
     -- engine order: the turn game gets M_FRAME first (our hook runs FirstFrame there), then it forwards to its children
     local o, e = pcall(H.sendMessage, "CTaskTurnGame", H.TG, nil, 2, 0, 0)
     if not o then L("tg frame: %s", tostring(e)) return false end
+    if not turnStarted then turnStarted = true; writeMemInt(H.TG + 0x164, 0) end
     for _, w in ipairs(H.worms) do
       local o, e = pcall(H.sendMessage, "CTaskWorm", w, H.TG, 2, 0, 0)
       if not o then L("worm frame: %s", tostring(e)) return false end
