@@ -1,0 +1,20 @@
+
+[music]
+; Tracker music (.xm .it .mod .s3m .stm .669 .mtm .far .ult .okt .med .amf ...), played by wkJellyWorm.
+; Put files into the folder  Worms Armageddon\jelly\music  and set Enabled=1.
+; Chat commands (lobby and in match): /music play|stop|pause|resume|next|vol N|list|status|reload
+; Log for debugging: jelly\music.log
+Enabled=1
+; 1 = start playing when a match starts (also replays)
+AutoplayMatch=1
+; 1 = start playing when you enter a network lobby (it keeps playing into the match)
+AutoplayLobby=0
+; A file, a folder (= playlist of every tracker file inside) or an http(s) URL.
+; URLs are downloaded once into jelly\cache\music.
+Track=jelly\music
+; 0..100
+Volume=70
+; 1 = repeat the track (or the whole playlist)
+Loop=1
+; 1 = random order when Track is a folder
+Shuffle=1

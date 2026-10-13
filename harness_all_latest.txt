@@ -1,0 +1,95 @@
+progress 25 / 544
+progress 50 / 544
+progress 75 / 544
+progress 100 / 544
+progress 125 / 544
+progress 150 / 544
+progress 175 / 544
+progress 200 / 544
+progress 225 / 544
+progress 250 / 544
+progress 275 / 544
+progress 300 / 544
+progress 325 / 544
+progress 350 / 544
+progress 375 / 544
+progress 400 / 544
+progress 425 / 544
+progress 450 / 544
+progress 475 / 544
+progress 500 / 544
+progress 525 / 544
+packages 544 crashes 3
+CRASHKIND    3 HARD TIMEOUT Ns
+   7  px: Respawn Control Enabled   e.g. ['map_object_ctf_control', 'map_object_race_timer']
+   6  pxrt: CWorm::Message(N) chain failed: TIMEOUT (instruction budget)   e.g. ['scheme_cardmageddon', 'scheme_rpgwars']
+   5  pxrt: CWorm::Message(N) chain failed: TIMEOUT (instruction budget)  [repeats suppressed]   e.g. ['scheme_rpgwars', 'scheme_rpgwars_2v2']
+   3  pxrt: method CheckName called on null   e.g. ['scheme_cardmageddon', 'weapon_nuke_rocket']
+   3  pxrt: CLandscape::Draw unsupported   e.g. ['utility_building_pixel', 'utility_map_builder_mario']
+   2  pxrt: FireFinal chain failed: TIMEOUT (instruction budget)   e.g. ['scheme_cardmageddon', 'scheme_rpgwars_2v2']
+   2  pxrt: CTurnGame::Message(N) chain failed: TIMEOUT (instruction budget)   e.g. ['scheme_rpgwars', 'scheme_rpgwars_2v2']
+   1  pxboot: cweps: claimed (ProjectX scripts run through pxrt)   e.g. ['cweps']
+   1  pxboot: darkness2016: claimed (ProjectX scripts run through pxrt)   e.g. ['darkness2016']
+   1  pxboot: fow_darkness: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_darkness']
+   1  pxboot: fow_farsight: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_farsight']
+   1  pxboot: fow_lamp_missile: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_lamp_missile']
+   1  pxboot: fow_land_generator: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_land_generator']
+   1  pxboot: fow_lantern: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_lantern']
+   1  pxboot: fow_lantern_destruct: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_lantern_destruct']
+   1  pxboot: fow_light_tower: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_light_tower']
+   1  pxboot: fow_magicmole: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_magicmole']
+   1  pxboot: fow_mf_code: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_mf_code']
+   1  pxrt: CWorm::Message(N) chain failed: fow_mf_code/kaos_crate.lua:N: attempt to index a number value (field 'centerLineGUI')   e.g. ['fow_mf_code']
+   1  pxrt: CWorm::Message(N) chain failed: fow_mf_code/kaos_crate.lua:N: attempt to index a number value (field 'centerLineGUI')  [repeats suppressed]   e.g. ['fow_mf_code']
+   1  pxboot: fow_mf_media: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_mf_media']
+   1  pxboot: fow_mode: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_mode']
+   1  pxboot: fow_mole_fort: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_mole_fort']
+   1  pxrt: CWorm::Message(N) chain failed: fow_mole_fort/kaos_crate.lua:N: attempt to index a number value (field 'centerLineGUI')   e.g. ['fow_mole_fort']
+   1  pxrt: CWorm::Message(N) chain failed: fow_mole_fort/kaos_crate.lua:N: attempt to index a number value (field 'centerLineGUI')  [repeats suppressed]   e.g. ['fow_mole_fort']
+   1  pxboot: fow_mole_fort_light: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_mole_fort_light']
+   1  pxboot: fow_spawn: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_spawn']
+   1  pxboot: fow_torch: claimed (ProjectX scripts run through pxrt)   e.g. ['fow_torch']
+   1  pxboot: fowm_farsight: claimed (ProjectX scripts run through pxrt)   e.g. ['fowm_farsight']
+   1  pxrt: new of unknown class CLightTower   e.g. ['fowm_farsight']
+   1  pxboot: golf_ball: claimed (ProjectX scripts run through pxrt)   e.g. ['golf_ball']
+   1  pxboot: golf_one_ball_mode: claimed (ProjectX scripts run through pxrt)   e.g. ['golf_one_ball_mode']
+   1  pxboot: golf_powerbat: claimed (ProjectX scripts run through pxrt)   e.g. ['golf_powerbat']
+   1  pxboot: golf_zones: claimed (ProjectX scripts run through pxrt)   e.g. ['golf_zones']
+   1  pxboot: lantern2016: claimed (ProjectX scripts run through pxrt)   e.g. ['lantern2016']
+   1  pxrt: CWorm::Message(N) chain failed: lantern2016/lighttower.lua:N: attempt to index a number value (field 'centerLineGUI')   e.g. ['lantern2016']
+   1  pxrt: CWorm::Message(N) chain failed: lantern2016/lighttower.lua:N: attempt to index a number value (field 'centerLineGUI')  [repeats suppressed]   e.g. ['lantern2016']
+   1  pxboot: map_decor_cartoon: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_cartoon']
+   1  pxboot: map_decor_che_area69_ktk: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_che_area69_ktk']
+   1  pxboot: map_decor_che_winter_ktk: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_che_winter_ktk']
+   1  pxboot: map_decor_dan_castle_ktk: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_dan_castle_ktk']
+   1  pxboot: map_decor_golf: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_golf']
+   1  pxboot: map_decor_golf_elements: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_golf_elements']
+   1  pxboot: map_decor_golf_flags: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_golf_flags']
+   1  pxboot: map_decor_ktk_01: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_ktk_01']
+   1  pxboot: map_decor_ktk_03: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_ktk_03']
+   1  pxboot: map_decor_ktk_29: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_ktk_29']
+   1  pxboot: map_decor_template_anim: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_template_anim']
+   1  pxboot: map_decor_template_fixed: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_template_fixed']
+   1  pxboot: map_decor_trees_bright: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_trees_bright']
+   1  pxboot: map_decor_trees_dark: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_trees_dark']
+   1  pxboot: map_decor_trees_dead: claimed (ProjectX scripts run through pxrt)   e.g. ['map_decor_trees_dead']
+   1  pxboot: map_object_bee: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_bee']
+   1  pxboot: map_object_cleaner: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_cleaner']
+   1  pxboot: map_object_ctf_control: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_ctf_control']
+   1  pxboot: map_object_custom_hp: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_custom_hp']
+   1  pxboot: map_object_drum: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_drum']
+   1  pxboot: map_object_drum_supply: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_drum_supply']
+   1  pxboot: map_object_elevator: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_elevator']
+   1  pxboot: map_object_extra: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_extra']
+   1  pxboot: map_object_glider_teleport: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_glider_teleport']
+   1  pxboot: map_object_mine: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_mine']
+   1  pxboot: map_object_pool: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_pool']
+   1  pxboot: map_object_portals: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_portals']
+   1  pxboot: map_object_race_timer: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_race_timer']
+   1  pxboot: map_object_respawn: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_respawn']
+   1  pxboot: map_object_saw: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_saw']
+   1  pxboot: map_object_sentry: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_sentry']
+   1  pxboot: map_object_shop: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_shop']
+   1  pxboot: map_object_spawn_ktk: claimed (ProjectX scripts run through pxrt)   e.g. ['map_object_spawn_ktk']
+distinct issues 573
+done

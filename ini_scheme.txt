@@ -1,0 +1,15 @@
+
+[scheme_bind]
+; Modules tied to the scheme you pick in the normal WA lobby (offline, local multiplayer, host lobby).
+; 1 = on. Every scheme pick is logged to jelly\scheme_hook.log (name, hash, which bindings matched).
+Enabled=1
+
+[scheme_modules]
+; <scheme file name without .wsc> = module, module=1.2.3, ...
+; Picking that scheme enables the modules, picking another scheme disables them again.
+; The host config string then syncs them to the guests, guests need no setup.
+; Other key forms:  hash:1A2B3C4D (hash of the scheme settings, shown by /scheme)
+;                   #3 (built-in scheme number, shown in scheme_hook.log)
+; Easiest way: enable modules in the lobby with /enable, pick the scheme, then type  /scheme bind
+; Example (remove the semicolon):
+;Pro=glider,weapon_tazer

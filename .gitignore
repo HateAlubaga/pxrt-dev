@@ -1,0 +1,32 @@
+# Build output
+build_*/
+build*.log
+build*_cfg.log
+mt/b/
+ehtest/b_*/
+out/
+__pycache__/
+*.pyc
+
+# Snapshots and backups made during development
+base_*/
+bak5/
+bak6/
+*.bak*
+*.orig
+
+# Third-party material: Worms Armageddon disassembly and ProjectX scripts/wiki
+# written by other authors. Kept locally only.
+rs/
+wr/
+*.asm
+px_pipeline/px/
+px_pipeline/pxl/
+px_pipeline/pxwiki/
+px_pipeline/corpus.json
+px_pipeline/testout/
+
+# Original sol2 headers used only by the ehtest "old" variant (copied from wkJellyWorm git HEAD)
+ehtest/old_inc/
+
+ehtest/*.log

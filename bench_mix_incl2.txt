@@ -1,0 +1,174 @@
+load of 27 packages: 0.522s
+vtable8 callbacks registered: CTaskMine=1 CTaskMissile=1 CTaskOildrum=1 CTaskTurnGame=1 CTaskWorm=1
+frames=40  messages=1000 (25.0/frame)  lua cpu(mock, incl. mock memory)=1271.0 ms/frame
+VM instructions per frame: 1006345
+host API calls per frame: 4560
+   readMemU32       2793/frame
+   readMemInt       1509/frame
+   readMemString    122/frame
+   readMemU8        57/frame
+   ptrToInt         25/frame
+   getTurnGameAddr  25/frame
+   isKeyDown        21/frame
+   callRegs         4/frame
+   memFill          4/frame
+   writeMemU32      0/frame
+hot lines (share of VM instructions):
+    13.4%  C:\Users\Admin\pxrt_dev\harness\mock_dll.lua:26
+     7.0%  C:\Users\Admin\pxrt_dev\harness\mock_dll.lua:14
+     6.1%  C:/Users/Admin/pxrt_dev/harness/bench.lua:18
+     4.8%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_engine.lua:33
+     4.4%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt.lua:59
+     3.5%  C:\Users\Admin\pxrt_dev\harness\mock_dll.lua:13
+     3.5%  C:/Users/Admin/pxrt_dev/harness/bench.lua:20
+     2.9%  C:\Users\Admin\pxrt_dev\harness\mock_dll.lua:27
+     2.7%  C:\Users\Admin\pxrt_dev\harness\mock_dll.lua:42
+     2.5%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt.lua:218
+     2.3%  C:/Users/Admin/pxrt_dev/harness/bench.lua:19
+     1.4%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt.lua:262
+     1.4%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_engine.lua:215
+     1.0%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_engine.lua:214
+     1.0%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_funcs.lua:326
+     0.9%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_engine.lua:31
+     0.9%  C:\Users\Admin\pxrt_dev\harness\mock_dll.lua:40
+     0.9%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_engine.lua:163
+hot files:
+    32.2%  C:\Users\Admin\pxrt_dev\harness\mock_dll.lua
+    18.5%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt.lua
+    18.1%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_engine.lua
+    12.1%  C:/Users/Admin/pxrt_dev/harness/bench.lua
+     3.9%  @lib/utils/utils.lua
+     2.9%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_classes.lua
+     1.9%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_funcs.lua
+     1.8%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_consts.lua
+     1.7%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_soft.lua
+     1.2%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_hooks.lua
+     0.6%  @lib/wosc_lib/wosc_lib.lua
+     0.5%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_pseudo.lua
+     0.4%  C:/Users/Admin/pxrt_dev/out/lualibs/pxrt_e_game.lua
+     0.3%  utility_helicopter_revised/helicopter_SCRIPT.lua
+self time by function:
+    13.4%  mock_dll.lua:26
+    11.9%  bench.lua:17
+    10.8%  mock_dll.lua:12
+     5.0%  pxrt_engine.lua:212
+     4.8%  pxrt_engine.lua:33
+     4.7%  mock_dll.lua:36
+     4.5%  pxrt.lua:58
+     3.1%  pxrt.lua:213
+     2.9%  mock_dll.lua:27
+     2.6%  pxrt_engine.lua:75
+     2.0%  pxrt.lua:260
+     2.0%  pxrt.lua:188
+     1.8%  pxrt_e_funcs.lua:322
+     1.6%  pxrt.lua:222
+     1.5%  pxrt_engine.lua:159
+     1.4%  pxrt_engine.lua:260
+     1.3%  utils.lua:279  utils.pxc:147 GetCurrentWorm
+     1.3%  pxrt.lua:436
+     1.2%  pxrt.lua:218
+     1.1%  utils.lua:683  utils.pxc:466 CKeySync::ProcessInput
+     1.1%  pxrt_e_soft.lua:124
+     1.1%  pxrt_e_consts.lua:71
+     1.0%  pxrt_e_classes.lua:118
+     1.0%  utils.lua:722  utils.pxc:501 CKeySync::OnFrame
+     1.0%  pxrt_engine.lua:43
+     0.9%  pxrt_engine.lua:31
+     0.7%  pxrt.lua:250
+     0.7%  pxrt_e_consts.lua:62
+     0.6%  pxrt_e_classes.lua:414
+     0.5%  pxrt_engine.lua:89
+     0.5%  pxrt_e_classes.lua:477
+     0.5%  pxrt.lua:245
+     0.5%  pxrt_e_hooks.lua:148
+     0.4%  pxrt_e_classes.lua:452
+     0.4%  pxrt_e_pseudo.lua:217
+     0.3%  pxrt_e_hooks.lua:70
+     0.3%  pxrt.lua:76
+     0.3%  yoshi_script.lua:40  yoshi_script.pxc:52 override CWorm::Message
+     0.3%  pxrt.lua:53
+     0.3%  p_sprite_builder.lua:170  p_sprite_builder.pxc:186 WormSprite::Message
+     0.3%  pxrt.lua:50
+     0.3%  pxrt.lua:130
+     0.3%  helicopter_SCRIPT.lua:122  helicopter_SCRIPT.pxc:129 override CWorm::Message
+     0.3%  utils_red.lua:1998  utils_red.pxc:1962 override CWorm::Message
+     0.2%  balloon_s.lua:37  balloon_s.pxc:50 override CWorm::Message
+     0.2%  pxrt_e_soft.lua:349
+     0.2%  pxrt_e_terrain.lua:74
+     0.2%  golf_table_script.lua:72  golf_table_script.pxc:71 CInterfaceHandler::ListNDraw
+     0.2%  pxrt_e_classes.lua:479
+     0.2%  pxrt.lua:117
+inclusive (share of samples whose stack contains the function):
+   100.0%  bench.lua:0
+   100.0%  [C]:-1
+   100.0%  bench.lua:109
+    99.9%  mock_dll.lua:256
+    99.8%  [string "<python>"]:0
+    99.6%  pxrt_e_hooks.lua:132
+    99.5%  pxrt_e_hooks.lua:148
+    66.8%  zone_launchers_script.lua:380  zone_launchers_script.pxc:410 override CWorm::Message
+    61.2%  health_zone_anim.lua:59  health_zone_anim.pxc:57 override CWorm::Message
+    60.3%  bovineblitz.lua:338  bovineblitz.pxc:454 override CWorm::Message
+    59.8%  yoshi_script.lua:40  yoshi_script.pxc:52 override CWorm::Message
+    58.8%  wingscript.lua:32  wingscript.pxc:34 override CWorm::Message
+    58.2%  ufo_SCRIPT.lua:25  ufo_SCRIPT.pxc:24 override CWorm::Message
+    53.9%  superjet_SCRIPT.lua:16  superjet_SCRIPT.pxc:13 override CWorm::Message
+    49.6%  spitfire_SCRIPT.lua:40  spitfire_SCRIPT.pxc:39 override CWorm::Message
+    45.0%  hoverboard_SCRIPT.lua:23  hoverboard_SCRIPT.pxc:28 override CWorm::Message
+    40.1%  helicopter_SCRIPT.lua:122  helicopter_SCRIPT.pxc:129 override CWorm::Message
+    32.4%  Ghost_Jet_Pack_SCRIPT.lua:19  Ghost_Jet_Pack_SCRIPT.pxc:13 override CWorm::Message
+    31.7%  balloon_s.lua:37  balloon_s.pxc:50 override CWorm::Message
+    30.9%  golf_table_script.lua:367  golf_table_script.pxc:304 override CWorm::Message
+    30.9%  golfball_script.lua:1053  golfball_script.pxc:1412 override CWorm::Message
+    27.2%  golfball_script.lua:871  golfball_script.pxc:1211 override CWorm::Message
+    26.8%  utils_red.lua:1998  utils_red.pxc:1962 override CWorm::Message
+    26.4%  pxrt_e_classes.lua:118
+    25.1%  pxrt_e_pseudo.lua:217
+    24.7%  pxrt_e_pseudo.lua:190
+    24.3%  utils_red.lua:135  utils_red.pxc:124 override CWorm::Message
+    23.3%  mock_dll.lua:26
+    21.9%  p_sprite_builder.lua:170  p_sprite_builder.pxc:186 WormSprite::Message
+    21.9%  pxrt_engine.lua:75
+    20.9%  utils.lua:279  utils.pxc:147 GetCurrentWorm
+    20.8%  mock_dll.lua:27
+    15.7%  bowlingball.lua:819  bowlingball.pxc:940 override CWorm::Message
+    15.5%  utils_pyroman.lua:1175  utils_pyroman.pxc:1312 override CWorm::Message
+    12.3%  utils_pyroman.lua:1103  utils_pyroman.pxc:1230 override CWorm::Message
+    11.9%  bench.lua:17
+    10.8%  mock_dll.lua:12
+     9.1%  pxrt_e_classes.lua:479
+     8.4%  pxrt_e_classes.lua:414
+     8.3%  tazer.lua:712  tazer.pxc:921 override CWorm::Message
+     8.1%  wosc_lib.lua:302  wosc_lib.pxc:311 override CWorm::Message
+     8.0%  wosc_lib.lua:285  wosc_lib.pxc:298 override CWorm::Message
+     7.5%  wosc_lib.lua:129  wosc_lib.pxc:110 override CWorm::Message
+     7.5%  pxrt_e_funcs.lua:322
+     7.3%  pxrt_engine.lua:212
+     7.2%  wosc_lib.lua:74  wosc_lib.pxc:49 override CWorm::Message
+     6.7%  spot_hider_anim.lua:12  spot_hider_anim.pxc:11 override CTurnGame::Message
+     6.7%  health_zone_anim.lua:14  health_zone_anim.pxc:15 override CTurnGame::Message
+     6.7%  blast_zone_anim.lua:14  blast_zone_anim.pxc:12 override CTurnGame::Message
+     6.6%  holy_zook_anim.lua:15  holy_zook_anim.pxc:14 override CTurnGame::Message
+     6.5%  ether_script.lua:15  ether_script.pxc:17 override CTurnGame::Message
+     6.5%  bomb_omb_script.lua:13  bomb_omb_script.pxc:14 override CTurnGame::Message
+     6.4%  SQBS.lua:13  SQBS.pxc:11 override CTurnGame::Message
+     6.2%  QBS.lua:13  QBS.pxc:11 override CTurnGame::Message
+     6.1%  battering_ram_script.lua:13  battering_ram_script.pxc:14 override CTurnGame::Message
+     6.1%  basketball_script.lua:16  basketball_script.pxc:20 override CTurnGame::Message
+     6.0%  ascender_script.lua:103  ascender_script.pxc:110 override CTurnGame::Message
+     5.9%  ascender_script.lua:77  ascender_script.pxc:85 override CTurnGame::Message
+     5.8%  ascender_script.lua:51  ascender_script.pxc:60 override CTurnGame::Message
+     5.8%  ascender_script.lua:25  ascender_script.pxc:35 override CTurnGame::Message
+messages by class: CTaskTurnGame=200 CTaskWorm=800
+LOG pxboot: darkness2016: claimed (ProjectX scripts run through pxrt)
+LOG pxrt: hooks installed (generation 1)
+LOG pxboot: golf_ball: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_balloon: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_ghost_jetpack: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_helicopter_revised: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_hoverboard: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_spitfire: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_super_jetpack: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_ufo: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_umbrella: claimed (ProjectX scripts run through pxrt)
+LOG pxboot: utility_wings: claimed (ProjectX scripts run through pxrt)

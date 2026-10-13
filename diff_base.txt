@@ -1,0 +1,94 @@
+progress 25 / 544
+progress 50 / 544
+progress 75 / 544
+progress 100 / 544
+progress 125 / 544
+progress 150 / 544
+progress 175 / 544
+progress 200 / 544
+progress 225 / 544
+progress 250 / 544
+progress 275 / 544
+progress 300 / 544
+progress 325 / 544
+progress 350 / 544
+progress 375 / 544
+progress 400 / 544
+progress 425 / 544
+progress 450 / 544
+progress 475 / 544
+progress 500 / 544
+progress 525 / 544
+packages 544 crashes 3
+CRASHKIND    3 HARD TIMEOUT Ns
+ 541  pxrt: quad renderer ready (RenderQuad, AddSpriteQ, AddCustomRender, rotated sprites)   e.g. ['cweps', 'darkness2016']
+ 319  pxrt: WA.exe image at A50000 (linked at N)   e.g. ['cweps', 'fow_darkness']
+ 174  pxrt: asset 'ding.wav' of @lib/wosc_lib not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 163  pxrt: asset 'smoke.png' of @lib/particles not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 162  pxrt: CWorm::RenderWorm hooked at B5FCD0   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentry_base.png' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentry_body.png' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentry_gun.png' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentry_gun_firing.png' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentry_muzzle.png' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentryplace.wav' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentryservoloop.wav' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentryservostart.wav' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentryservoend.wav' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentryfireloop.wav' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentryfireend.wav' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 160  pxrt: asset 'sentrybeeps2.wav' of @lib/weapon_sentry_gun not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 158  pxrt: asset 'lightning_beam.png' of @lib/weapon_lightning not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 158  pxrt: asset 'lightning_glow.png' of @lib/weapon_lightning not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 158  pxrt: asset 'lightningthund.wav' of @lib/weapon_lightning not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 158  pxrt: asset 'lightninghit.wav' of @lib/weapon_lightning not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 157  pxrt: asset 'worm_tazed1.png' of @lib/weapon_tazer not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 157  pxrt: asset 'worm_tazed2.png' of @lib/weapon_tazer not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 157  pxrt: asset 'lightning_beam.png' of @lib/weapon_tazer not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 157  pxrt: asset 'lightning_glow.png' of @lib/weapon_tazer not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 157  pxrt: asset 'sentryservoloop.wav' of @lib/weapon_tazer not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 155  pxrt: asset 'fireball4.png' of @lib/utils_pyroman not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 142  pxrt: asset 'bowling.png' of @lib/weapon_bowlingball not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 142  pxrt: asset 'bowlingspark.png' of @lib/weapon_bowlingball not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 142  pxrt: asset 'lightning_glow.png' of @lib/weapon_bowlingball not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 142  pxrt: asset 'beam_glow.png' of @lib/pxeffects not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 142  pxrt: asset 'hand_rad.png' of @lib/p_sprite_builder not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 142  pxrt: asset 'hand_rad_lower.png' of @lib/p_sprite_builder not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+ 142  pxrt: asset 'hand_rad_upper.png' of @lib/p_sprite_builder not found in its packages: left to the host   e.g. ['cweps', 'fow_darkness']
+  34  pxrt: CSpriteAnim::SetAnimEx hooked at B45BD0   e.g. ['fow_darkness', 'fow_farsight']
+  27  pxrt: asset 'buffalo.png' of @lib/weapon_buffalo not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  27  pxrt: asset 'buffalostart.wav' of @lib/weapon_buffalo not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  27  pxrt: asset 'buffaloride.wav' of @lib/weapon_buffalo not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  27  pxrt: asset 'buffaloroar1.wav' of @lib/weapon_buffalo not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  27  pxrt: asset 'buffaloroar2.wav' of @lib/weapon_buffalo not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'magnet.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'magnet2.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'magnet_damaged.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'magnet2_damaged.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'ring_in.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'ring_out.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'magnetsparks.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'magmissile.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'magmissile2.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'wmaglnk.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'wmaglnku.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'wmaglnkd.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'wmag2lnk.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'wmag2lnku.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  26  pxrt: asset 'wmag2lnkd.png' of @lib/weapon_magnet not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  19  pxrt: asset 'laser_beam.png' of @lib/weapon_gun_lasergun not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  19  pxrt: asset 'laser_glow.png' of @lib/weapon_gun_lasergun not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  19  pxrt: asset 'laser_start.wav' of @lib/weapon_gun_lasergun not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  19  pxrt: asset 'laser_loop.wav' of @lib/weapon_gun_lasergun not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  19  pxrt: asset 'laser_end.wav' of @lib/weapon_gun_lasergun not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  18  pxrt: asset 'bbuster_idle.png' of @lib/weapon_air_bunker_buster not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  18  pxrt: asset 'bbuster_digging.png' of @lib/weapon_air_bunker_buster not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  18  pxrt: asset 'sbbuster_idle.png' of @lib/weapon_air_bunker_buster not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  18  pxrt: asset 'sbbuster_digging.png' of @lib/weapon_air_bunker_buster not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  18  pxrt: asset 'sbbuster_glow.png' of @lib/weapon_air_bunker_buster not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  18  pxrt: asset 'bunkbustdrill.wav' of @lib/weapon_air_bunker_buster not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  18  pxrt: asset 'bunkbustfall.wav' of @lib/weapon_air_bunker_buster not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  17  pxrt: asset 'sentrylaserbase.png' of @lib/weapon_sentry_laser not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  17  pxrt: asset 'sentrylaserbody.png' of @lib/weapon_sentry_laser not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+  17  pxrt: asset 'sentrylaserbarrel.png' of @lib/weapon_sentry_laser not found in its packages: left to the host   e.g. ['fow_darkness', 'fow_farsight']
+distinct issues 2532

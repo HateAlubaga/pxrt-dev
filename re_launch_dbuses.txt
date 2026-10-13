@@ -1,0 +1,169 @@
+== +2d4 (L=178 if launch copy; DB-L=c)
+   00507e54 lea edi, [ebp + 0x2d4]
+   0050802b mov eax, dword ptr [ebp + 0x2d4]
+   00508265 mov ecx, dword ptr [ebp + 0x2d4]
+   00508279 or edx, dword ptr [ebp + 0x2d4]
+   0050828a or eax, dword ptr [ebp + 0x2d4]
+   00508295 mov ecx, dword ptr [ebp + 0x2d4]
+   00508697 lea eax, [ebx + 0x2d4]
+   00508cd9 test dword ptr [edi + 0x2d4], edx
+   00508d52 test dword ptr [edi + 0x2d4], edx
+   0050affe or eax, dword ptr [edi + 0x2d4]
+   0050b101 or eax, dword ptr [esi + 0x2d4]
+   0050b9c7 test dword ptr [ebx + 0x2d4], 0x400000
+== +2d8 (L=17c if launch copy; DB-L=10)
+   00509b0c mov ecx, dword ptr [edi + 0x2d8]
+== +2dc (L=180 if launch copy; DB-L=14)
+   00509b05 mov edx, dword ptr [edi + 0x2dc]
+== +2e0 (L=184 if launch copy; DB-L=18)
+   00509aee mov esi, dword ptr [edi + 0x2e0]
+   00509b12 imul ecx, dword ptr [edi + 0x2e0]
+== +2e4 (L=188 if launch copy; DB-L=1c)
+   00509ae8 mov eax, dword ptr [edi + 0x2e4]
+== +2e8 (L=18c if launch copy; DB-L=20)
+   00507e70 idiv dword ptr [ebp + 0x2e8]
+   005091bc lea esi, [ebx + 0x2e8]
+   0050b418 lea edi, [ebx + 0x2e8]
+== +2ec (L=190 if launch copy; DB-L=24)
+   00507e76 add dword ptr [ebp + 0x2ec], edx
+   00508eb6 cmp dword ptr [edi + 0x2ec], 0x40
+   00509acf cmp dword ptr [edi + 0x2ec], 0x4a
+   0050b815 mov eax, dword ptr [ebx + 0x2ec]
+== +2f4 (L=198 if launch copy; DB-L=2c)
+   0050ba79 lea edi, [ebx + 0x2f4]
+== +304 (L=1a8 if launch copy; DB-L=3c)
+   0050817c mov ecx, dword ptr [ebp + 0x304]
+== +308 (L=1ac if launch copy; DB-L=40)
+   0050818c mov ecx, dword ptr [ebp + 0x308]
+   0050be07 cmp dword ptr [ebx + 0x308], 0
+   0050be31 cmp dword ptr [ebx + 0x308], 0
+== +30c (L=1b0 if launch copy; DB-L=44)
+   0050b72f mov ecx, dword ptr [ebx + 0x30c]
+   0050b75e mov ecx, dword ptr [ebx + 0x30c]
+== +310 (L=1b4 if launch copy; DB-L=48)
+   005081a9 mov ecx, dword ptr [ebp + 0x310]
+== +314 (L=1b8 if launch copy; DB-L=4c)
+   00509269 cmp eax, dword ptr [ebx + 0x314]
+   0050b5d0 mov dword ptr [ebx + 0x314], eax
+   0050ba35 mov dword ptr [ebx + 0x314], esi
+== +318 (L=1bc if launch copy; DB-L=50)
+   00507f0a cmp dword ptr [ebp + 0x318], ebx
+   00507f1c mov dword ptr [ebp + 0x318], ecx
+   00507fb2 mov eax, dword ptr [ebp + 0x318]
+   005094d7 idiv dword ptr [ebx + 0x318]
+== +31c (L=1c0 if launch copy; DB-L=54)
+   00508ab1 mov ebp, dword ptr [edi + 0x31c]
+== +320 (L=1c4 if launch copy; DB-L=58)
+   0050b868 cmp dword ptr [ebx + 0x320], edi
+== +324 (L=1c8 if launch copy; DB-L=5c)
+   0050b896 mov edx, dword ptr [ebx + 0x324]
+== +328 (L=1cc if launch copy; DB-L=60)
+   00507fb8 mov ecx, dword ptr [ebp + 0x328]
+== +32c (L=1d0 if launch copy; DB-L=64)
+   00507ebd cmp dword ptr [ebp + 0x32c], ebx
+   0050b557 mov eax, dword ptr [ebx + 0x32c]
+   0050b5d6 mov dword ptr [ebx + 0x32c], eax
+   0050ba08 cmp dword ptr [ebx + 0x32c], esi
+   0050ba3b mov dword ptr [ebx + 0x32c], esi
+   0050bc75 mov dword ptr [ebx + 0x32c], edi
+== +330 (L=1d4 if launch copy; DB-L=68)
+   00507f22 mov eax, dword ptr [ebp + 0x330]
+   00508051 mov ecx, dword ptr [ebp + 0x330]
+   00508250 mov eax, dword ptr [ebp + 0x330]
+   00508cc0 mov eax, dword ptr [edi + 0x330]
+   00508da1 mov eax, dword ptr [edi + 0x330]
+   00508e4d mov ecx, dword ptr [edi + 0x330]
+   00508e8c mov eax, dword ptr [edi + 0x330]
+   00508f09 cmp dword ptr [edi + 0x330], 3
+   005093a3 mov eax, dword ptr [ebx + 0x330]
+   00509598 cmp dword ptr [ebx + 0x330], 4
+   0050b509 cmp dword ptr [ebx + 0x330], edx
+   0050b60f cmp dword ptr [ebx + 0x330], 3
+   0050b8bb cmp dword ptr [ebx + 0x330], 3
+   0050b94c mov eax, dword ptr [ebx + 0x330]
+   0050b9ad mov eax, dword ptr [ebx + 0x330]
+   0050b9d3 mov dword ptr [ebx + 0x330], esi
+   0050be88 cmp dword ptr [ebx + 0x330], eax
+== +334 (L=1d8 if launch copy; DB-L=6c)
+   00508273 mov edx, dword ptr [ebp + 0x334]
+   00508284 mov eax, dword ptr [ebp + 0x334]
+   005091c4 lea esi, [ebx + 0x334]
+   0050b0fb mov eax, dword ptr [esi + 0x334]
+   0050b24c test dword ptr [esi + 0x334], 0x40000000
+   0050b420 lea edi, [ebx + 0x334]
+== +338 (L=1dc if launch copy; DB-L=70)
+   00507f32 cmp dword ptr [ebp + 0x338], ebx
+   00507f44 mov dword ptr [ebp + 0x338], eax
+   005080e1 mov ecx, dword ptr [ebp + 0x338]
+   0050aff8 mov eax, dword ptr [edi + 0x338]
+== +33c (L=1e0 if launch copy; DB-L=74)
+   00508113 imul ecx, dword ptr [ebp + 0x33c]
+   0050814a imul ecx, dword ptr [ebp + 0x33c]
+   005088ff mov eax, dword ptr [esi + 0x33c]
+   0050a989 mov ecx, dword ptr [esi + 0x33c]
+== +340 (L=1e4 if launch copy; DB-L=78)
+   00508e6a mov ecx, dword ptr [edi + 0x340]
+   005095fa mov ebp, dword ptr [ebx + 0x340]
+   0050a9bc mov edx, dword ptr [esi + 0x340]
+   0050ba81 lea edi, [ebx + 0x340]
+== +344 (L=1e8 if launch copy; DB-L=7c)
+   00508dbc test dword ptr [edi + 0x344], edx
+   00508ea5 test dword ptr [edi + 0x344], eax
+   005095f2 mov ebp, dword ptr [ebx + 0x344]
+   0050a9ed mov eax, dword ptr [esi + 0x344]
+   0050b96f test byte ptr [ebx + 0x344], 8
+== +348 (L=1ec if launch copy; DB-L=80)
+   00508e0c cmp edx, dword ptr [edi + 0x348]
+   005095ea mov ebp, dword ptr [ebx + 0x348]
+   0050aa15 mov ecx, dword ptr [esi + 0x348]
+== +34c (L=1f0 if launch copy; DB-L=84)
+   005095e2 mov ebp, dword ptr [ebx + 0x34c]
+   0050aa22 mov eax, dword ptr [esi + 0x34c]
+== +350 (L=1f4 if launch copy; DB-L=88)
+   00508eef mov eax, dword ptr [edi + 0x350]
+   0050aa0c cmp dword ptr [esi + 0x350], 1
+   0050aa2d cmp dword ptr [esi + 0x350], 0
+   0050aa3c cmp dword ptr [esi + 0x350], ebx
+   0050aa7e cmp dword ptr [esi + 0x350], 0
+   0050ab2c mov eax, dword ptr [esi + 0x350]
+   0050ac12 mov eax, dword ptr [esi + 0x350]
+== +354 (L=1f8 if launch copy; DB-L=8c)
+   00508ead cmp dword ptr [edi + 0x354], 0
+   00508ede mov esi, dword ptr [edi + 0x354]
+   0050ab4b mov ecx, dword ptr [esi + 0x354]
+   0050aba9 mov eax, dword ptr [esi + 0x354]
+   0050abb8 mov dword ptr [esi + 0x354], eax
+   0050abf7 mov dword ptr [esi + 0x354], 0
+== +358 (L=1fc if launch copy; DB-L=90)
+   00508ed8 mov edx, dword ptr [edi + 0x358]
+   0050ab58 mov eax, dword ptr [esi + 0x358]
+   0050ac09 cmp dword ptr [esi + 0x358], 0
+   0050ac34 add dword ptr [esi + 0x358], -0x14
+   0050ac3b cmp dword ptr [esi + 0x358], 0
+   0050ac44 mov dword ptr [esi + 0x358], 0
+== +35c (L=200 if launch copy; DB-L=94)
+   00508dc4 mov eax, dword ptr [edi + 0x35c]
+   00508dd3 mov dword ptr [edi + 0x35c], eax
+   00509499 mov ecx, dword ptr [ebx + 0x35c]
+   0050b967 cmp dword ptr [ebx + 0x35c], esi
+== +360 (L=204 if launch copy; DB-L=98)
+   0050a8be mov eax, dword ptr [edi + 0x360]
+   0050a8cd mov dword ptr [edi + 0x360], eax
+   0050a8d5 mov dword ptr [edi + 0x360], 0
+== +364 (L=208 if launch copy; DB-L=9c)
+   0050a897 mov ecx, dword ptr [edi + 0x364]
+== +368 (L=20c if launch copy; DB-L=a0)
+   005094b4 mov ebp, dword ptr [ebx + 0x368]
+== +36c (L=210 if launch copy; DB-L=a4)
+   0050944c mov eax, dword ptr [ebx + 0x36c]
+   0050b511 cmp dword ptr [ebx + 0x36c], 0
+   0050b8c4 cmp dword ptr [ebx + 0x36c], edi
+== +370 (L=214 if launch copy; DB-L=a8)
+   00509454 mov eax, dword ptr [ebx + 0x370]
+== +374 (L=218 if launch copy; DB-L=ac)
+   0050afa6 mov eax, dword ptr [edi + 0x374]
+== +378 (L=21c if launch copy; DB-L=b0)
+   0050ade6 cmp dword ptr [esi + 0x378], 0
+   0050ae10 mov eax, dword ptr [esi + 0x378]
+   0050afbf mov ebx, dword ptr [edi + 0x378]
+   0050b0ed cmp dword ptr [esi + 0x378], 0

@@ -1,0 +1,8676 @@
+{
+ "cweps": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 13,
+   "CMissile::Message": 12,
+   "CMissile::ExplodeAt": 3,
+   "CWorm::Message": 3,
+   "CWorm::PlaySoundBank": 1,
+   "CMissile::StartFly": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_valyrianfire",
+   "utility_laser_pointer"
+  ]
+ },
+ "darkness2016": {
+  "roots": {},
+  "ov": {
+   "CWorm::RenderLabels": 1,
+   "CWorm::RenderCrosshair": 1,
+   "CDDQueue::AddSprite": 1,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "fow_darkness": {
+  "roots": {},
+  "ov": {
+   "CWorm::RenderLabels": 1,
+   "CWorm::RenderCrosshair": 1,
+   "CDDQueue::AddSprite": 1,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole"
+  ]
+ },
+ "fow_farsight": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_darkness",
+   "fow_torch"
+  ]
+ },
+ "fow_lamp_missile": {
+  "roots": {
+   "CMine": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CDarknessControl::GenerateLSources": 1,
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_darkness"
+  ]
+ },
+ "fow_land_generator": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "fow_lantern": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CDarknessControl::GenerateLSources": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_darkness"
+  ]
+ },
+ "fow_lantern_destruct": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CDarknessControl::GenerateLSources": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_darkness"
+  ]
+ },
+ "fow_light_tower": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CDarknessControl::GenerateLSources": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_darkness"
+  ]
+ },
+ "fow_magicmole": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CGObject::LookAtMe": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CMissile::ExplodeAt": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "fow_mf_code": {
+  "roots": {
+   "CObject": 2,
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CMissile::ExplodeAt": 1,
+   "CGObject::LookAtMe": 1,
+   "CTurnGame::SetCurrentTeam": 1,
+   "CTurnGame::FinishTurn": 1,
+   "COilDrum::Free": 1,
+   "COilDrum::Message": 1,
+   "COilDrum::Render": 1,
+   "COilDrum::Explosion": 1,
+   "CWorm::Message": 1,
+   "CCrate::Free": 1,
+   "CObject::ShowTeamMessage": 1
+  },
+  "libs": [
+   "utils",
+   "fow_spawn",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "fow_magicmole",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_mole_fort_light"
+  ]
+ },
+ "fow_mf_media": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "fow_mode": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_darkness"
+  ]
+ },
+ "fow_mole_fort": {
+  "roots": {
+   "CObject": 2,
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CMissile::ExplodeAt": 1,
+   "CGObject::LookAtMe": 1,
+   "CTurnGame::SetCurrentTeam": 1,
+   "CTurnGame::FinishTurn": 1,
+   "COilDrum::Free": 1,
+   "COilDrum::Message": 1,
+   "COilDrum::Render": 1,
+   "COilDrum::Explosion": 1,
+   "CWorm::Message": 1,
+   "CCrate::Free": 1,
+   "CObject::ShowTeamMessage": 1
+  },
+  "libs": [
+   "utils",
+   "fow_spawn",
+   "fow_magicmole",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_mole_fort_light"
+  ]
+ },
+ "fow_mole_fort_light": {
+  "roots": {
+   "CObject": 1,
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::RenderLabels": 1,
+   "CWorm::RenderCrosshair": 1,
+   "CDDQueue::AddSprite": 2,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CTurnGame::Message": 2,
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_spawn"
+  ]
+ },
+ "fow_spawn": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "fow_torch": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CDDQueue::AddSprite": 1,
+   "CDarknessControl::GenerateLSources": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_sentry_gun_invis",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "fow_magicmole",
+   "fow_darkness"
+  ]
+ },
+ "fowm_farsight": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "darkness2016"
+  ]
+ },
+ "golf_ball": {
+  "roots": {
+   "CMine": 1,
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 3,
+   "CWorm::FireFinal": 1,
+   "golfball_script::InitGraphic": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "golf_zones"
+  ]
+ },
+ "golf_one_ball_mode": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": []
+ },
+ "golf_powerbat": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman"
+  ]
+ },
+ "golf_zones": {
+  "roots": {
+   "CObject": 3
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "lantern2016": {
+  "roots": {
+   "CGObject": 3,
+   "CObject": 2
+  },
+  "ov": {
+   "CCrate::Free": 1,
+   "CObject::ShowTeamMessage": 1,
+   "CGameInfo::AddWeapon": 1,
+   "CGObject::LookAtMe": 2,
+   "COilDrum::Free": 1,
+   "COilDrum::Message": 1,
+   "CWorm::FireFinal": 2,
+   "COilDrum::Render": 1,
+   "COilDrum::Explosion": 1,
+   "CDarknessControl::GenerateLSources": 1,
+   "CWorm::Message": 2,
+   "CTurnGame::FinishTurn": 1,
+   "CTurnGame::SetCurrentTeam": 1,
+   "CDDQueue::AddSprite": 1,
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "darkness2016",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun"
+  ]
+ },
+ "map_decor_cartoon": {
+  "roots": {
+   "CObject": 27
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_che_area69_ktk": {
+  "roots": {
+   "CObject": 11
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_che_winter_ktk": {
+  "roots": {
+   "CObject": 6
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_dan_castle_ktk": {
+  "roots": {
+   "CObject": 4
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_golf": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_golf_elements": {
+  "roots": {
+   "CObject": 7
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_golf_flags": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_ktk_01": {
+  "roots": {
+   "CObject": 6
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_ktk_03": {
+  "roots": {
+   "CObject": 13
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_ktk_29": {
+  "roots": {
+   "CObject": 8
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_template_anim": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": []
+ },
+ "map_decor_template_fixed": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_trees_bright": {
+  "roots": {
+   "CObject": 8
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_trees_dark": {
+  "roots": {
+   "CObject": 9
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_decor_trees_dead": {
+  "roots": {
+   "CObject": 7
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_bee": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_keeper_bee"
+  ]
+ },
+ "map_object_cleaner": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_ctf_control": {
+  "roots": {
+   "CMine": 1,
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::Free": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "particles",
+   "map_object_respawn",
+   "map_object_traps"
+  ]
+ },
+ "map_object_custom_hp": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_drum": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_drum_supply": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_elevator": {
+  "roots": {
+   "CGObject": 4,
+   "CObject": 2
+  },
+  "ov": {
+   "CMissile::Collide": 1,
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_extra": {
+  "roots": {
+   "CObject": 5
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "pxairstrike",
+   "pxparticles",
+   "weapon_bowlingball",
+   "utility_hangglider_render",
+   "utility_fan",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet"
+  ]
+ },
+ "map_object_glider_teleport": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_ktk_control": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_danylo"
+  ]
+ },
+ "map_object_mine": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CMine::Message": 1,
+   "CMine::Free": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_pool": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_portals": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_race_timer": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CWorm::Free": 1
+  },
+  "libs": [
+   "utils",
+   "map_object_respawn"
+  ]
+ },
+ "map_object_respawn": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CTurnGame::GetNextTeam": 1,
+   "CTeam::GetNextWorm": 1,
+   "CWorm::Free": 1,
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_saw": {
+  "roots": {
+   "CMine": 1,
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 3,
+   "CMine::Message": 1,
+   "CWorm::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet"
+  ]
+ },
+ "map_object_sentry": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser"
+  ]
+ },
+ "map_object_shop": {
+  "roots": {
+   "CObject": 3
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "script_trueshopping",
+   "map_object_custom_hp",
+   "particles",
+   "map_object_respawn",
+   "map_object_traps"
+  ]
+ },
+ "map_object_spawn_ktk": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils_danylo"
+  ]
+ },
+ "map_object_spawn_simple": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_teleports": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "particles"
+  ]
+ },
+ "map_object_traps": {
+  "roots": {
+   "CObject": 7
+  },
+  "ov": {
+   "CMissile::Message": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "particles",
+   "map_object_respawn"
+  ]
+ },
+ "map_object_traps_sprites": {
+  "roots": {
+   "CObject": 14
+  },
+  "ov": {
+   "CMissile::Message": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "map_object_respawn"
+  ]
+ },
+ "map_object_user_heli_race_code": {
+  "roots": {
+   "CObject": 25
+  },
+  "ov": {
+   "CMissile::Message": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "map_object_respawn",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utility_hangglider_render",
+   "utility_fan",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "script_trueshopping",
+   "map_object_user_heli_race_media"
+  ]
+ },
+ "map_object_user_heli_race_media": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "map_object_wind_control": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "map_object_wxw": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CEnv::CheckCollisionEx": 1,
+   "CWorm::Message": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "p_animation": {
+  "roots": {
+   "CObject": 3
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "particles"
+  ]
+ },
+ "p_gravity_gun": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 2,
+   "CWorm::PlaySoundBank": 1,
+   "PxLightningStrike::LightningHit": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "p_portal2"
+  ]
+ },
+ "p_gravity_gun_no_worm": {
+  "roots": {},
+  "ov": {
+   "CWorm::SuckObject": 1,
+   "CWorm::CheckPossibleSuck": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "p_portal2",
+   "p_gravity_gun"
+  ]
+ },
+ "p_portal2": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman"
+  ]
+ },
+ "p_portal_ctm": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "p_portal2",
+   "p_portal_walls",
+   "p_portalgun2"
+  ]
+ },
+ "p_portal_walls": {
+  "roots": {
+   "CObject": 3
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "p_portal2"
+  ]
+ },
+ "p_portalgun2": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CWorm::PlaySoundBank": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "p_portal2",
+   "p_portal_walls"
+  ]
+ },
+ "p_sprite_builder": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CWorm::RenderWorm": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman"
+  ]
+ },
+ "p_turrets": {
+  "roots": {
+   "CGObject": 4
+  },
+  "ov": {
+   "CLandscape::ApplyBitmap": 1,
+   "CArrow::Message": 1,
+   "CWorm::FireFinal": 10
+  },
+  "libs": [
+   "utils",
+   "wosc_lib"
+  ]
+ },
+ "particles": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "pxairstrike": {
+  "roots": {
+   "CMine": 1
+  },
+  "ov": {},
+  "libs": []
+ },
+ "pxbullet": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils",
+   "pxparticles"
+  ]
+ },
+ "pxparticles": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "pxtexbeam": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "scheme_alien_vs_marines": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_stun_mine"
+  ]
+ },
+ "scheme_arena": {
+  "roots": {
+   "CObject": 3,
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_basketball": {
+  "roots": {
+   "CMine": 1,
+   "CObject": 4
+  },
+  "ov": {
+   "CWorm::Message": 4,
+   "CWorm::RenderWorm": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "utils_danylo",
+   "pxparticles",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "scheme_buymenu": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_cardmageddon": {
+  "roots": {
+   "CObject": 4
+  },
+  "ov": {
+   "CWorm::FireFinal": 4,
+   "CWorm::Message": 7,
+   "CTurnGame::GetNextTeam": 1,
+   "CWorm::RenderWorm": 1,
+   "CGameInfo::SetWeaponEx": 1,
+   "CGameInfo::AddWeaponEx": 1,
+   "CGameInfo::AddWeapon": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib"
+  ]
+ },
+ "scheme_cgolf": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CMissile::Message": 2,
+   "CTurnGame::Message": 1,
+   "CWorm::PlaySoundBank": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "scheme_clash_of_kings": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 3,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "wosc_lib"
+  ]
+ },
+ "scheme_clash_of_kings_2v2": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 3,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "wosc_lib"
+  ]
+ },
+ "scheme_ctf": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_dodge": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 4,
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hide_and_seek": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 3,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CWorm::Message": 3,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_0rang3": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_breit": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_classic": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_dahl": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_joedaddy": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_popka": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_pyro": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_rafa2": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_raffie": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_ropelander": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_hl_wormdawg": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_holy_war": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 3,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "scheme_kaos_0rang3": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_kaos_animal": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::FinishTurn": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_ktk": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_danylo",
+   "map_object_ktk_control"
+  ]
+ },
+ "scheme_ktk_fow": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_ktk_live": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CKtkControl::DrawKingHealth": 1
+  },
+  "libs": [
+   "utils",
+   "utils_danylo",
+   "map_object_ktk_control",
+   "wosc_lib"
+  ]
+ },
+ "scheme_ktk_zomb": {
+  "roots": {},
+  "ov": {
+   "CWorm::RenderWorm": 1,
+   "CWorm::Message": 3,
+   "CTurnGame::GetNextTeam": 1,
+   "CTeam::GetNextWorm": 1,
+   "CKtkControl::DrawKingHealth": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib",
+   "utils_danylo",
+   "map_object_ktk_control"
+  ]
+ },
+ "scheme_painter": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_penalty": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 4,
+   "CTurnGame::GetNextTeam": 1,
+   "CTeam::GetNextWorm": 1,
+   "CWorm::RenderWorm": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "wosc_lib"
+  ]
+ },
+ "scheme_pool": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CMissile::Message": 4,
+   "CWorm::Message": 3,
+   "CWorm::FireFinal": 2,
+   "CWorm::PlaySoundBank": 2,
+   "CWorm::RenderWorm": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "utility_laser_pointer",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "scheme_random_race": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "utility_parkour"
+  ]
+ },
+ "scheme_rpgwars": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 9,
+   "CWorm::FireFinal": 5,
+   "CTurnGame::GetNextTeam": 1,
+   "CTurnGame::Message": 5,
+   "CMissile::Message": 4,
+   "CMissile::ExplodeAt": 1,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::RenderDmgLabel": 1,
+   "CWorm::RenderCrosshair": 1,
+   "CWorm::RenderLabels": 1,
+   "CWorm::DrawAim": 1,
+   "CWorm::DrawHand": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "scheme_rpgwars_2v2": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 9,
+   "CWorm::FireFinal": 5,
+   "CTurnGame::GetNextTeam": 1,
+   "CTurnGame::Message": 5,
+   "CMissile::Message": 4,
+   "CMissile::ExplodeAt": 1,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::RenderDmgLabel": 1,
+   "CWorm::RenderCrosshair": 1,
+   "CWorm::RenderLabels": 1,
+   "CWorm::DrawAim": 1,
+   "CWorm::DrawHand": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "scheme_specialists": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 2,
+   "CWorm::SuckObject": 1,
+   "CWorm::CheckPossibleSuck": 1,
+   "CWorm::Death": 1,
+   "PxLightningStrike::LightningHit": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "script_swat_enabler",
+   "script_random_zombies",
+   "weapon_gun_lasergun",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_portal2",
+   "p_gravity_gun"
+  ]
+ },
+ "scheme_specialists_2v2": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 2,
+   "CWorm::SuckObject": 1,
+   "CWorm::CheckPossibleSuck": 1,
+   "CWorm::Death": 1,
+   "PxLightningStrike::LightningHit": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "script_swat_enabler",
+   "weapon_gun_lasergun",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "script_random_zombies",
+   "p_portal2",
+   "p_gravity_gun"
+  ]
+ },
+ "scheme_team17": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 3,
+   "CTurnGame::FinishTurn": 1,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_team17_old": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 3,
+   "CTurnGame::FinishTurn": 1,
+   "CObject::ForceFocus": 1,
+   "CGObject::LookAtMe": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "scheme_team_fortress": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "wosc_lib",
+   "script_swat_enabler"
+  ]
+ },
+ "scheme_team_fortress_2v2": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "wosc_lib",
+   "script_swat_enabler"
+  ]
+ },
+ "script_acceleworm": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_actionpoints_template": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CTurnGame::GetNextTeam": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_agility": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utility_gravity_change"
+  ]
+ },
+ "script_analyzer": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::PlaySoundBank": 1,
+   "CObject::PlaySound": 1,
+   "CGObject::PlayLocalSound": 1,
+   "CTurnGame::Message": 1,
+   "CMine::Message": 1,
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_antiglitch": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::SetState": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_antipatience": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_antisink": {
+  "roots": {},
+  "ov": {
+   "CWorm::SetState": 1,
+   "CWorm::Message": 1,
+   "CWorm::OnSink": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_antisink_nolosecontrol": {
+  "roots": {},
+  "ov": {
+   "CWorm::SetState": 1,
+   "CWorm::Message": 1,
+   "CWorm::OnSink": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_antisudden": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "script_super_sheep_control",
+   "utility_inverse",
+   "utility_swimsuit"
+  ]
+ },
+ "script_auto_afk": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_blowtorch": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_cameralock": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_cba": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CCrate::Message": 1,
+   "CCrate::Free": 1
+  },
+  "libs": [
+   "utils",
+   "script_super_sheep_control",
+   "utility_inverse",
+   "utility_swimsuit"
+  ]
+ },
+ "script_celebration_stars": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CDDQueue::AddSprite": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_changing_wind": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_chat_sound": {
+  "roots": {},
+  "ov": {
+   "CGame::EnterToChat": 1
+  },
+  "libs": []
+ },
+ "script_constant_climb": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_constant_crates_spawn": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::FinishTurn": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_crate_finder": {
+  "roots": {},
+  "ov": {
+   "CCrate::Message": 1
+  },
+  "libs": []
+ },
+ "script_crate_pick": {
+  "roots": {},
+  "ov": {
+   "CCrate::Message": 1,
+   "CCrate::Free": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_crazyjumps": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_dont_look_far": {
+  "roots": {},
+  "ov": {
+   "CGObject::LookAtMe": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_end_turn_indicator": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_explosion_no_shake": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib"
+  ]
+ },
+ "script_explosion_shake": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::SetState": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "script_exturnside": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_fastaiming": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_fastdeath": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "script_super_sheep_control",
+   "utility_inverse",
+   "utility_swimsuit"
+  ]
+ },
+ "script_fastdeath_safeplop": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_faster_rope": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_hack"
+  ]
+ },
+ "script_fire_extention": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CFire::LookAtMe": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_fire_realistic": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::SetState": 1,
+   "CFire::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_girder_restrictor": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_grenade": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_hp_levels": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 3,
+   "CWorm::RenderLabels": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman"
+  ]
+ },
+ "script_jumping_crates": {
+  "roots": {},
+  "ov": {
+   "CGObject::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_kill_counter": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles"
+  ]
+ },
+ "script_live_hp": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_messages": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "script_mouse_aim": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::SetCurrentTeam": 1,
+   "CTurnGame::FinishTurn": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_hack"
+  ]
+ },
+ "script_multishot": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_no_worm_collision": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_nothing_effect": {
+  "roots": {},
+  "ov": {
+   "CWorm::RenderCrosshair": 1,
+   "CWorm::PlaySoundBank": 1,
+   "CTurnGame::Message": 1,
+   "CWorm::RenderLabels": 1,
+   "CWorm::RenderRope": 1,
+   "CWorm::RenderRopeShot": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_oildrums": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "COilDrum::Render": 1,
+   "COilDrum::Explosion": 1,
+   "COilDrum::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet"
+  ]
+ },
+ "script_other_drums": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "COilDrum::Render": 1,
+   "COilDrum::Explosion": 1,
+   "COilDrum::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_keeper_bee",
+   "weapon_nuke_rocket",
+   "weapon_grenade_smoke",
+   "weapon_air_911"
+  ]
+ },
+ "script_parkour_no_slide": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_parkour_slide": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_parkour_slide_space": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_portal_random_on_map": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "p_portal2"
+  ]
+ },
+ "script_portal_teleported_objects": {
+  "roots": {},
+  "ov": {
+   "CPortal::Update": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "p_portal2"
+  ]
+ },
+ "script_possessed_objects": {
+  "roots": {},
+  "ov": {
+   "CMine::Message": 2,
+   "COilDrum::Message": 2,
+   "CMine::Render": 1,
+   "COilDrum::Render": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_random_earthquakes": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_random_sentrys": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser"
+  ]
+ },
+ "script_random_turrets": {
+  "roots": {
+   "CGObject": 2
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "map_object_respawn"
+  ]
+ },
+ "script_random_zombies": {
+  "roots": {},
+  "ov": {
+   "CWorm::RenderWorm": 1,
+   "CWorm::Message": 4,
+   "CTurnGame::GetNextTeam": 1,
+   "CTeam::GetNextWorm": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib"
+  ]
+ },
+ "script_randombees": {
+  "roots": {},
+  "ov": {
+   "COilDrum::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_keeper_bee"
+  ]
+ },
+ "script_recoil": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_remember_weapon": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "script_rope_counter": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::SetState": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_rope_extention": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_safe_kamikaze": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_safe_skipgo": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_safe_surrender": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_scoreboard": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_dannyb",
+   "was_counters"
+  ]
+ },
+ "script_shooting_cooldown": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": []
+ },
+ "script_shotgun": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_slowpoke_battle": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CEnv::PhysicsTick": 1
+  },
+  "libs": []
+ },
+ "script_sound_testing": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_spawn_1_worm": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_spawn_8_worms": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_steal_health": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_super_sheep_control": {
+  "roots": {},
+  "ov": {
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_swat_enabler": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CTeam::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_teleport_restrictor": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_timer_template": {
+  "roots": {},
+  "ov": {
+   "CTimer::SetTimer": 1
+  },
+  "libs": [
+   "utils_danylo"
+  ]
+ },
+ "script_trueshopping": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_turnstart_antifalldamage": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_turnstart_doublejump": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_turnstart_fastwalk": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_turnstart_swimsuit": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils",
+   "script_super_sheep_control",
+   "utility_inverse",
+   "utility_swimsuit"
+  ]
+ },
+ "script_underwaterbombs_15": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_steps",
+   "weapon_underwater_bomb"
+  ]
+ },
+ "script_variable_wind": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_wasd_control": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman"
+  ]
+ },
+ "script_water_rise": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "script_weapon_fix": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "script_weapon_panel": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman"
+  ]
+ },
+ "script_worm_order": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "wosc_lib"
+  ]
+ },
+ "sound_fail": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "sound_muahaha3": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "sound_portal_welcome": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "sound_userc479_crazy": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "sound_userc479_family_guy": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "sound_welcome_pacmani": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "sprite_arrows": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_background_cake": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_background_px": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_crates": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_crosshairs": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_cursors": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_250": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_251": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_252": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_253": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_254": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_259": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_261": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_262": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_451": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_452": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_453": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_454": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_455": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_456": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_457": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_458": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_461": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_466": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_curtis_86": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_explosions_ecchi": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_explosions_pyroman": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_fireball": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_loading": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_mines_bright": {
+  "roots": {},
+  "ov": {
+   "CDDQueue::AddSprite": 1
+  },
+  "libs": []
+ },
+ "sprite_mines_circle": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_mines_metal": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_mines_raffie": {
+  "roots": {},
+  "ov": {
+   "CDDQueue::AddSprite": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "sprite_mines_stringking": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_petrol_ecchi": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_petrol_steps": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_phone": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_sky_clouds": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_tlamp": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_water": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_weapons": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_blood": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_die_coward": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_facepalm": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_in_caps_steps": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_pyroman": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_rope": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_teleport_1": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_teleport_2": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_teleport_3": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_tweakmoves": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_zook_green": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_zook_grey": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_zook_purple": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "sprite_worms_zook_red": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "utility_all_crates": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CCrate::Free": 1,
+   "CMine::PlayLocalSound": 1,
+   "CMine::GetTarget": 1,
+   "CMine::Explosion": 1,
+   "CWorm::FireFinal": 1,
+   "CGObject::PlayLocalSound": 1,
+   "CSpriteAnim::SetAnimEx": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_all_medkits": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 3
+  },
+  "libs": []
+ },
+ "utility_all_timers": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CTurnGame::Message": 1
+  },
+  "libs": []
+ },
+ "utility_antifire_suit": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "script_fire_extention",
+   "pxtexbeam",
+   "weapon_gun_lasergun"
+  ]
+ },
+ "utility_armor_vest": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_balloon": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::OnSink": 1,
+   "CWorm::FireFinal": 1,
+   "CSpriteAnim::SetAnimEx": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib"
+  ]
+ },
+ "utility_building_pixel": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_climb": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib",
+   "utility_ladder"
+  ]
+ },
+ "utility_crate_collector": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "utility_curse_of_death": {
+  "roots": {},
+  "ov": {
+   "CArrow::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CMine::Message": 1,
+   "COilDrum::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "utility_dark_parachute": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "utility_device": {
+  "roots": {
+   "CGObject": 6,
+   "CObject": 3
+  },
+  "ov": {
+   "CSpriteAnim::SetAnimEx": 1,
+   "CWorm::Message": 6,
+   "CWorm::FireFinal": 3,
+   "CMissile::Message": 1,
+   "CTurnGame::SetCurrentTeam": 2
+  },
+  "libs": [
+   "utils",
+   "utility_laser_pointer",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_gun_sniper_rifle_sb"
+  ]
+ },
+ "utility_dice": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_dice_of_doom": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_double_damage": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "utility_doublejump": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_emp": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CGObject::Message": 1,
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CDDQueue::AddSprite": 1,
+   "CMagnet::OnTurnBegin": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "pxairstrike",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "weapon_tazer",
+   "weapon_bowlingball",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "p_turrets",
+   "p_portal2"
+  ]
+ },
+ "utility_endure": {
+  "roots": {},
+  "ov": {
+   "CWorm::Free": 1,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "utility_invincibility",
+   "utility_no_fall_damage"
+  ]
+ },
+ "utility_fan": {
+  "roots": {
+   "CObject": 1,
+   "CMine": 1
+  },
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "utility_hangglider_render"
+  ]
+ },
+ "utility_gamespeed": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 3,
+   "CWorm::FireFinal": 3
+  },
+  "libs": [
+   "utils",
+   "utils_hack"
+  ]
+ },
+ "utility_ghost_jetpack": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CMine::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_girder_launcher": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utility_laser_pointer",
+   "sprite_curtis_259"
+  ]
+ },
+ "utility_god_mode": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::SetState": 1,
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utility_no_fall_damage"
+  ]
+ },
+ "utility_gravity_change": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CWorm::SetState": 1,
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_hangglider": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CDDQueue::AddSprite": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_hangglider_render": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CSpriteAnim::SetAnimEx": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_helicopter": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::Collide": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_helicopter_revised": {
+  "roots": {
+   "CFire": 1,
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::Collide": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1,
+   "CGObject::Collide": 1,
+   "COilDrum::Explosion": 1,
+   "COilDrum::Message": 1,
+   "COilDrum::Render": 1,
+   "COilDrum::Free": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles"
+  ]
+ },
+ "utility_hoverboard": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_indestructable_terrain": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_inverse": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "script_super_sheep_control"
+  ]
+ },
+ "utility_invincibility": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::RenderDmgLabel": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_jump": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::PlaySoundBank": 1,
+   "CWorm::Message": 1
+  },
+  "libs": []
+ },
+ "utility_ladder": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib"
+  ]
+ },
+ "utility_laser_pointer": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_magic_potion": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CTurnGame::SetCurrentTeam": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_map_builder_mario": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_map_builder_tetris": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_mine_reveal": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_no_explosion_damage": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_no_fall_damage": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_parkour": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_personal_invisibility": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "wosc_lib"
+  ]
+ },
+ "utility_platform": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_regeneration": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_reinforcement": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_rope_bungee_variation": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 5,
+   "CWorm::FireFinal": 4,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_sacrifice": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_shield_gun": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "utility_skinchanger": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::RenderLabels": 1,
+   "CDDQueue::AddSprite": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles"
+  ]
+ },
+ "utility_skipgo_surrender": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_spitfire": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::Collide": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_sudden_death": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "utility_super_girder": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_super_jetpack": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::OnSink": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_super_teleport": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CGObject::PlayLocalSound": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_swat_select": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CTeam::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utility_swimsuit": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 2,
+   "CWorm::Message": 2,
+   "CWorm::RenderWorm": 1,
+   "CMissile::Message": 1,
+   "CMissile::Collide": 1,
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::PlaySoundBank": 1
+  },
+  "libs": [
+   "utils",
+   "script_super_sheep_control",
+   "utility_inverse"
+  ]
+ },
+ "utility_team_freeze": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "utility_tele_arrow": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_454"
+  ]
+ },
+ "utility_telekinesis": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::Message": 1,
+   "CGObject::Message": 1,
+   "CCrate::Free": 1,
+   "COilDrum::Free": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_gun_lasergun",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster",
+   "weapon_sentry_laser",
+   "utility_hangglider_render",
+   "utility_fan",
+   "p_turrets"
+  ]
+ },
+ "utility_trampoline": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CEnv::CheckCollisionEx": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_trampoline_big": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CEnv::CheckCollisionEx": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_trampoline_destruct": {
+  "roots": {
+   "CGObject": 1
+  },
+  "ov": {
+   "CEnv::CheckCollisionEx": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_ufo": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CWorm::Collide": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "wosc_lib"
+  ]
+ },
+ "utility_umbrella": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "utility_vampire_mode": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_wind_changer": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_wings": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::RenderWorm": 1,
+   "CSpriteAnim::SetAnimEx": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utility_worm_size": {
+  "roots": {},
+  "ov": {
+   "CWorm::RenderWorm": 2,
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 2,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "utility_yoshi": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::RenderWorm": 1,
+   "CSpriteAnim::SetAnimEx": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utils_curtis": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utils_dannyb": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 4,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "utils_danylo": {
+  "roots": {
+   "CObject": 3
+  },
+  "ov": {},
+  "libs": []
+ },
+ "utils_hack": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils"
+  ]
+ },
+ "utils_pyroman": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CFire::AddSprite": 1,
+   "CGameInfo::SetWeaponEx": 1,
+   "CGameInfo::AddWeaponEx": 1,
+   "CGameInfo::AddWeapon": 1,
+   "CWorm::Message": 2,
+   "CWorm::GetWormAnimState": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer"
+  ]
+ },
+ "utils_r2": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "utils_steps": {
+  "roots": {},
+  "ov": {
+   "CObject::PlaySound": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "was_counters": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 8,
+   "CWorm::Message": 2,
+   "CWorm::SetState": 3
+  },
+  "libs": [
+   "utils",
+   "utils_dannyb"
+  ]
+ },
+ "was_informers": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_dannyb"
+  ]
+ },
+ "was_message_testing": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "was_px_bug_fixes": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 2,
+   "CWorm::Message": 6,
+   "CWorm::ResetWeapon": 2,
+   "CDDQueue::AddSprite": 1
+  },
+  "libs": [
+   "utils",
+   "utils_dannyb"
+  ]
+ },
+ "weapon_acid_shower": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_air_911": {
+  "roots": {
+   "CMissile": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "particles",
+   "weapon_grenade_smoke",
+   "utils_steps",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_air_alien_invasion": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_angels_of_death": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_banana_express": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_air_battle_drone": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_bovineblitz": {
+  "roots": {
+   "CMine": 2
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_air_bunker_buster": {
+  "roots": {
+   "CMine": 2
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxairstrike",
+   "pxparticles",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet"
+  ]
+ },
+ "weapon_air_holy_strike": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_air_judgement_day": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_kami_gliderer": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_air_king_kong": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_kirov_airship": {
+  "roots": {
+   "CMine": 2
+  },
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_air_liberation": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_air_lottery": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_meteor": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "sprite_curtis_259"
+  ]
+ },
+ "weapon_air_mortar_strike": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "sprite_curtis_466"
+  ]
+ },
+ "weapon_air_orbital_attack": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_salvation_nation": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_satellite": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_air_sidewinder": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "sprite_curtis_466"
+  ]
+ },
+ "weapon_air_steps": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 3,
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::Message": 1,
+   "CGObject::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "weapon_alien": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_stun_mine"
+  ]
+ },
+ "weapon_ascender": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_ascender_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 4
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_452"
+  ]
+ },
+ "weapon_barrel_launchers": {
+  "roots": {
+   "COilDrum": 6
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "particles",
+   "pxparticles",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet"
+  ]
+ },
+ "weapon_baseball": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_baseball_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis",
+   "sprite_curtis_455"
+  ]
+ },
+ "weapon_basketball": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_basketball_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis"
+  ]
+ },
+ "weapon_battering_ram": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis"
+  ]
+ },
+ "weapon_bees": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_bees_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_blaster_worm": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_blaster_worm_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_bomb_omb": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_bomb_omb_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_452",
+   "sprite_curtis_461"
+  ]
+ },
+ "weapon_bouncy_ball": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_bowlingball": {
+  "roots": {
+   "CMine": 2
+  },
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "pxairstrike",
+   "utils",
+   "pxparticles"
+  ]
+ },
+ "weapon_bows_arrows": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_bows_curtis": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "sprite_curtis_261",
+   "sprite_curtis_451",
+   "sprite_curtis_453",
+   "sprite_curtis_454"
+  ]
+ },
+ "weapon_bows_curtis_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 6,
+   "CMissile::Message": 6
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_259",
+   "sprite_curtis_261",
+   "sprite_curtis_451",
+   "sprite_curtis_452"
+  ]
+ },
+ "weapon_buffalo": {
+  "roots": {
+   "CObject": 1,
+   "CMissile": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_bulldozer_blue": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_bulldozer_yellow": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_bumper_bomb": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "sprite_curtis_253"
+  ]
+ },
+ "weapon_bumper_bomb_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis",
+   "sprite_curtis_253"
+  ]
+ },
+ "weapon_candy_bomb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_christmas": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_crazy_chicken_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_250"
+  ]
+ },
+ "weapon_crossbow": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_259"
+  ]
+ },
+ "weapon_darkside_killer": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_death_trap": {
+  "roots": {
+   "CGObject": 2
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_demon": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_devil_hand_grenade": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_die": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "weapon_double_bazooka": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman"
+  ]
+ },
+ "weapon_drilling_crew": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis"
+  ]
+ },
+ "weapon_elephant_beetle": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_energy_gun": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_ether_balloon_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_explosives": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CMissile::Message": 3,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 3
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_fart": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_ferrets": {
+  "roots": {
+   "CMissile": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_fire_orb": {
+  "roots": {},
+  "ov": {
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_466"
+  ]
+ },
+ "weapon_firejump": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_fireworks": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_flood": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_friendly_mine": {
+  "roots": {
+   "CMine": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_gas_canister": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_grave_digger": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_grave_digger_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 4,
+   "CMissile::Message": 5,
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_250",
+   "sprite_curtis_251"
+  ]
+ },
+ "weapon_gravler": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_gravler_sb": {
+  "roots": {},
+  "ov": {
+   "CMissile::Message": 2,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_electro": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 2,
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_fiery_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_frag_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_259",
+   "sprite_curtis_261"
+  ]
+ },
+ "weapon_grenade_gas": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_ghost": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_grenade_ghost_sb": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_golden_sb": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_gravity": {
+  "roots": {
+   "CMissile": 2
+  },
+  "ov": {
+   "CWorm::OnSink": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_grenade_hand": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_poison": {
+  "roots": {
+   "CGas": 1,
+   "CMissile": 1
+  },
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_security": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 3,
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_smoke": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "particles"
+  ]
+ },
+ "weapon_grenade_smoke_new": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 2,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenade_tele": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_grenades_pyroman": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 4,
+   "CMissile::Message": 5,
+   "CWorm::Message": 2,
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_gun_ak47": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_gun_auto_shotgun_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_gun_famas": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_gun_lasergun": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxtexbeam"
+  ]
+ },
+ "weapon_gun_mines_gun": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_gun_pillager": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_452"
+  ]
+ },
+ "weapon_gun_pillager_combined": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_gun_power_shotgun": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_gun_real_shotgun": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_gun_ripper": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_457"
+  ]
+ },
+ "weapon_gun_ripper_combined": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_457"
+  ]
+ },
+ "weapon_gun_sniper_rifle": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utility_laser_pointer"
+  ]
+ },
+ "weapon_gun_sniper_rifle_sb": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utility_laser_pointer",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_gun_tennis_ball": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_curtis"
+  ]
+ },
+ "weapon_hatchet": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_hellish_hand_grenade_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_holy_bazooka": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_homing_mortar": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_250",
+   "sprite_curtis_466"
+  ]
+ },
+ "weapon_ice_arrow": {
+  "roots": {},
+  "ov": {
+   "CArrow::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles"
+  ]
+ },
+ "weapon_ice_bolt": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 2,
+   "CArrow::Message": 1,
+   "CWorm::Message": 2,
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "particles",
+   "p_animation",
+   "utils_steps",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_ice_shard": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CMissile::Message": 2,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_igniter": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_illuminati_bomb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_impact_bomb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_ion_bomb_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_javelin": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_javelin_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_jihadi_bomb": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_kamikaze_rocket": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "weapon_keeper_bee": {
+  "roots": {
+   "CMissile": 1,
+   "COilDrum": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CWorm::FireFinal": 2,
+   "keeperbeeM::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::Free": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_lightning": {
+  "roots": {
+   "CObject": 3
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Free": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxtexbeam"
+  ]
+ },
+ "weapon_magic_slammer": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "sprite_curtis_254"
+  ]
+ },
+ "weapon_magic_slammer_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_254",
+   "sprite_curtis_458"
+  ]
+ },
+ "weapon_magnet": {
+  "roots": {
+   "CMine": 2
+  },
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CSpriteAnim::SetAnimEx": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo"
+  ]
+ },
+ "weapon_martial": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "weapon_match": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_megashark": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CMissile::Message": 2,
+   "CMissile::Free": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_mine_launchers": {
+  "roots": {},
+  "ov": {
+   "CMine::Collide": 1,
+   "CMine::Message": 1,
+   "CWorm::Message": 1,
+   "CMine::Render": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_mine_launchers_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMine::Collide": 1,
+   "CMine::Message": 1,
+   "CWorm::Message": 1,
+   "CMine::Render": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_mini_torch": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CMissile::Message": 2,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis",
+   "sprite_curtis_461"
+  ]
+ },
+ "weapon_mini_torch_combined": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CWorm::Message": 2,
+   "CMissile::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis",
+   "sprite_curtis_461"
+  ]
+ },
+ "weapon_missile_launcher": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_mole_bombs": {
+  "roots": {},
+  "ov": {
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_monster_truck": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_mr_bean": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_naval_warfare": {
+  "roots": {
+   "CMine": 1,
+   "CMissile": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CDDQueue::AddSprite": 1
+  },
+  "libs": [
+   "utils",
+   "pxairstrike"
+  ]
+ },
+ "weapon_ninja_star": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "sprite_curtis_457"
+  ]
+ },
+ "weapon_ninja_star_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_457"
+  ]
+ },
+ "weapon_nuke_rocket": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 2,
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 2,
+   "CMissile::ExplodeAt": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_one_punch_worm": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_paintball": {
+  "roots": {
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 2,
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_petrol_rocket": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_466"
+  ]
+ },
+ "weapon_pigeon_cannon": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_453"
+  ]
+ },
+ "weapon_precipitator": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "sprite_curtis_455",
+   "sprite_curtis_456"
+  ]
+ },
+ "weapon_quran": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_remote_roller": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_remote_roller_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 4
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_250",
+   "sprite_curtis_251",
+   "sprite_curtis_259"
+  ]
+ },
+ "weapon_rock": {
+  "roots": {
+   "CMine": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_rpg": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_scarabs": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_sentry_gun": {
+  "roots": {
+   "CMine": 1
+  },
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib"
+  ]
+ },
+ "weapon_sentry_gun_invis": {
+  "roots": {
+   "CMine": 1
+  },
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun"
+  ]
+ },
+ "weapon_sentry_laser": {
+  "roots": {
+   "CMine": 1,
+   "CObject": 1
+  },
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_gun_lasergun",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet",
+   "weapon_air_bunker_buster"
+  ]
+ },
+ "weapon_shadow_bolt": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_453"
+  ]
+ },
+ "weapon_she_devil": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 3,
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_sheep_farting": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_sheep_ninja": {
+  "roots": {
+   "CWorm": 1
+  },
+  "ov": {
+   "CDDQueue::AddSprite": 1,
+   "CTurnGame::Message": 1,
+   "CTeam::PlaySound": 1,
+   "CMissile::Collide": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CMine::GetTarget": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles"
+  ]
+ },
+ "weapon_sheep_pogo": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "sprite_curtis_455"
+  ]
+ },
+ "weapon_sheep_pogo_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_455"
+  ]
+ },
+ "weapon_sheep_rodeo": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 2,
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1,
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "particles",
+   "p_animation",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "script_super_sheep_control"
+  ]
+ },
+ "weapon_sheep_ultra": {
+  "roots": {},
+  "ov": {
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "weapon_skipper": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_skipper_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_slingshot_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis",
+   "sprite_curtis_456"
+  ]
+ },
+ "weapon_smart_bomb": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "sprite_curtis_250"
+  ]
+ },
+ "weapon_smart_bomb_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_250",
+   "sprite_curtis_458"
+  ]
+ },
+ "weapon_snow_ball": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "sprite_curtis_455"
+  ]
+ },
+ "weapon_snow_ball_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis",
+   "sprite_curtis_455"
+  ]
+ },
+ "weapon_sonic": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_squawks": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_squawks_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_staff": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "sprite_curtis_458"
+  ]
+ },
+ "weapon_staff_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "utils_curtis",
+   "sprite_curtis_453",
+   "sprite_curtis_457",
+   "sprite_curtis_458"
+  ]
+ },
+ "weapon_sticky_bomb_brown": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_sticky_bomb_green": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_sticky_bomb_green_dark": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_sticky_bomb_green_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_stone": {
+  "roots": {
+   "CMine": 1
+  },
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_stun_mine": {
+  "roots": {
+   "CMine": 1,
+   "CObject": 2,
+   "CGObject": 3
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1,
+   "CMissile::Collide": 1,
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_substrike": {
+  "roots": {
+   "CMine": 1,
+   "CMissile": 1
+  },
+  "ov": {
+   "CWorm::FireFinal": 1,
+   "CDDQueue::AddSprite": 1
+  },
+  "libs": [
+   "utils",
+   "pxairstrike"
+  ]
+ },
+ "weapon_super_drill": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_super_kami": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_super_suicide": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_super_torch": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_superworm": {
+  "roots": {},
+  "ov": {
+   "CMissile::Message": 3,
+   "CWorm::FireFinal": 2,
+   "CMissile::ExplodeAt": 1,
+   "CWorm::Message": 1,
+   "CWorm::RenderWorm": 1,
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_surfer": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 2
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_tazer": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::SetCurrentTeam": 1,
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun"
+  ]
+ },
+ "weapon_tazer_electric": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer"
+  ]
+ },
+ "weapon_tele_animals": {
+  "roots": {},
+  "ov": {
+   "CMissile::ExplodeAt": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_thrown_explosives": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2,
+   "CMissile::Message": 2,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_250",
+   "sprite_curtis_461"
+  ]
+ },
+ "weapon_thumper_nade": {
+  "roots": {},
+  "ov": {},
+  "libs": [
+   "sprite_curtis_251",
+   "sprite_curtis_252"
+  ]
+ },
+ "weapon_thumper_nade_sb": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "sprite_curtis_251",
+   "sprite_curtis_252"
+  ]
+ },
+ "weapon_troll_face": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_turret_alien": {
+  "roots": {
+   "CGObject": 2
+  },
+  "ov": {
+   "CWorm::FireFinal": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weapon_underwater_bomb": {
+  "roots": {
+   "COilDrum": 1
+  },
+  "ov": {
+   "CWorm::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps"
+  ]
+ },
+ "weapon_valyrianfire": {
+  "roots": {
+   "CFire": 1
+  },
+  "ov": {
+   "CMissile::ExplodeAt": 1,
+   "CWorm::Message": 1,
+   "CTurnGame::Message": 1,
+   "CMissile::Message": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_worm_army": {
+  "roots": {},
+  "ov": {},
+  "libs": []
+ },
+ "weapon_zombie_apocalypse": {
+  "roots": {},
+  "ov": {
+   "CWorm::FireFinal": 1
+  },
+  "libs": []
+ },
+ "weapon_zones": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::Message": 3,
+   "CMissile::Message": 4,
+   "CWorm::Message": 2,
+   "CMissile::ExplodeAt": 1,
+   "CWorm::FireFinal": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder"
+  ]
+ },
+ "weapon_zones_no_dmg_zone": {
+  "roots": {},
+  "ov": {
+   "CHealthZone::DamageHealth": 1,
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "particles",
+   "p_animation",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_zones"
+  ]
+ },
+ "weather_christmas": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weather_pyroman": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "particles",
+   "p_animation",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet"
+  ]
+ },
+ "weather_pyroman_no_sticky": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils",
+   "utils_steps",
+   "pxparticles",
+   "pxtexbeam",
+   "weapon_lightning",
+   "pxairstrike",
+   "weapon_bowlingball",
+   "particles",
+   "p_animation",
+   "pxbullet",
+   "wosc_lib",
+   "weapon_sentry_gun",
+   "weapon_tazer",
+   "utils_pyroman",
+   "utils_r2",
+   "pxeffects",
+   "utils_red",
+   "red_sprite_builder",
+   "p_sprite_builder",
+   "weapon_buffalo",
+   "weapon_magnet"
+  ]
+ },
+ "weather_rain": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CTurnGame::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weather_shark": {
+  "roots": {
+   "CObject": 2
+  },
+  "ov": {
+   "CWorm::Message": 1
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "weather_slippery_terrain": {
+  "roots": {},
+  "ov": {
+   "CTurnGame::Message": 2
+  },
+  "libs": [
+   "utils"
+  ]
+ },
+ "wosc_lib": {
+  "roots": {},
+  "ov": {
+   "CWorm::Message": 4,
+   "CWorm::RenderCrosshair": 1,
+   "CObject::ForceFocus": 1,
+   "CWorm::FireFinal": 1,
+   "CTurnGame::SetCurrentTeam": 3
+  },
+  "libs": [
+   "utils"
+  ]
+ }
+}

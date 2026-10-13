@@ -1,0 +1,25 @@
+units 571 files 970 compile_errors 12 lua_errors 0
+ERR decl: map_object_ktk_control/ktk_control.pxc:32: expected identifier got '30'
+ERR decl: scheme_basketball/score_interface.pxc:126: expected ; (at 'pointers')
+ERR decl: map_object_ktk_control/ktk_control.pxc:32: expected identifier got '30'
+ERR decl: map_object_ktk_control/ktk_control.pxc:32: expected identifier got '30'
+ERR decl: map_object_ktk_control/ktk_control.pxc:32: expected identifier got '30'
+ERR decl: scheme_painter/gui.pxc:91: expected ; (at ')')
+ERR decl: script_agility/agile.pxc:41: eof in block (at None)
+ERR decl: weapon_air_911/nineelS.pxc:1: unexpected token at top level (at ':')
+ERR decl: script_possessed_objects/terraform.pxc:4: expected ; (at ')')
+ERR decl: utility_shield_gun/shield_gun_script.pxc:24: expected ; (at ')')
+ERR decl: weapon_air_911/nineelS.pxc:1: unexpected token at top level (at ':')
+ERR decl: weapon_air_steps/timerleftscript.pxc:27: expected ; (at ')')
+
+== unresolved calls
+
+== unresolved names
+     7 pEll
+     7 pCirc
+     6 phl
+     6 pml
+     4 psl
+     4 pcl
+     4 wep
+     2 rControl
